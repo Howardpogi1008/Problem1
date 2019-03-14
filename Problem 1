@@ -1,0 +1,37 @@
+// The manager of a football stadium wants you to write a program that calculates the total ticket sales after
+// each game. There are four types of tickets—box, sideline, premium, and general admission.
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+	int Box = 250;
+	int Sideline = 100;
+	int Premium = 50;
+	int GeneralAdmission = 20;
+	float Total;
+
+	cout << " Ticket                  Prices: "               << " Number of tickets sold " << endl;
+	cout << " Box= "                  <<250<< "                    ";
+	cin >> Box;
+	cout << " Sideline = "            << 100 <<"                   ";
+	cin >> Sideline;
+	cout << " Premium = "             << 50 <<"                    ";
+	cin >> Premium;
+	cout << " GeneralAdmission = "    << 20 <<"                    ";
+	cin >> GeneralAdmission;
+	cout << " " << endl;
+	cout << "                           Sale " << endl;
+	cout << " Box:                "<< " Box * 250 " << endl;
+	cout << " Sideline:           "<< " Sideline * 100 " << endl;
+	cout << " Premium:            "<< " Premium * 50 " << endl;
+	cout << " GeneralAdmission:   "<< " GeneralAdmission * 20 " << endl;
+	cout << " " << endl;
+	cout << " Total Sale: "        << ( Box * 250) + (Sideline * 100) + (Premium * 50) + (GeneralAdmission * 20) << endl;
+
+	_getch();
+
+	return 0;
+}
